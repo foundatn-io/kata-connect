@@ -1,0 +1,10 @@
+version: v1
+name: buf.build/pgmitche/petapis
+deps:
+  - buf.build/googleapis/googleapis:4bdf33e750fb409da9d403e1e98031f4
+breaking:
+  use:
+    - FILE
+lint:
+  use:
+    - DEFAULT
